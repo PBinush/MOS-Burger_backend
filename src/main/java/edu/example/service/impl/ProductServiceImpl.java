@@ -9,6 +9,8 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 @RequiredArgsConstructor
 @Slf4j
@@ -35,5 +37,30 @@ public class ProductServiceImpl implements ProductService {
             log.info("update error massage : "+e.getMessage());
             return false;
         }
+    }
+
+    @Override
+    public boolean deleteProduct(String id) {
+        return false;
+    }
+
+    @Override
+    public Product getProductById(String id) {
+        return null;
+    }
+
+    @Override
+    public List<Product> getAllProduct() {
+        return List.of();
+    }
+
+    @Override
+    public List<Product> getProductByCategory(String category) {
+        return List.of();
+    }
+
+    @Override
+    public List<Product> getProductByName(String name) {
+        return List.of();
     }
 }
