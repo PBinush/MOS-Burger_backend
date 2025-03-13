@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84cca704-f61b-46ca-a988-b4becdc52368" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/example/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/example/entity/OrderDetailEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/example/model/OrderDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/example/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/example/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/example/service/impl/ProductServiceImpl.java" afterDir="false" />
+    <list default="true" id="84cca704-f61b-46ca-a988-b4becdc52368" name="Changes" comment="update product service class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/example/service/CustomerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/example/entity/CategoryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/example/entity/CategoryEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/example/entity/CustomerEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/example/entity/CustomerEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/example/entity/OrderEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/example/entity/OrderEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/example/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/example/model/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/example/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/example/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/example/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/example/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/example/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/example/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -63,7 +49,8 @@
     "Application.Main.executor": "Run",
     "Maven.mos_burger_backend [clean,install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "dev",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
@@ -101,6 +88,19 @@
       <option name="presentableId" value="Default" />
       <updated>1740176928141</updated>
     </task>
+    <task id="LOCAL-00001" summary="update product service class">
+      <option name="closed" value="true" />
+      <created>1741836887485</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741836887485</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update product service class" />
+    <option name="LAST_COMMIT_MESSAGE" value="update product service class" />
   </component>
 </project>
