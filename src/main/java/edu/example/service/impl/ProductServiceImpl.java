@@ -50,7 +50,7 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public List<Product> getAllProduct() {
+    public List<Product> getAllProducts() {
         return List.of();
     }
 

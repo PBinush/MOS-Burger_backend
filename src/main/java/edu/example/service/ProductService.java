@@ -9,7 +9,7 @@ public interface ProductService {
     boolean updateProduct(Product product);
     boolean deleteProduct(String id);
     Product getProductById(String id);
-    List<Product> getAllProduct();
+    List<Product> getAllProducts();
     List<Product> getProductByCategory(String category);
     List<Product> getProductByName(String name);
 }
