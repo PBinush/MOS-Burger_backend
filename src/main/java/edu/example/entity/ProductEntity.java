@@ -16,6 +16,7 @@ public class ProductEntity {
     @Id
     private String itemCode;
     private String name;
+    private Integer qty;
     private Double price;
     private Integer discount;
     private String img;

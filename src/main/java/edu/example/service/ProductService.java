@@ -10,4 +10,5 @@ public interface ProductService {
     List<Product> getProductByCategory(String category);
     List<Product> getProductByName(String name);
     Product getProductById(String id);
+    boolean deleteProduct(String id);
 }

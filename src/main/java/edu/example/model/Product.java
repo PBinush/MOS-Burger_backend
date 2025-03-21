@@ -13,6 +13,7 @@ import org.jetbrains.annotations.NotNull;
 public class Product {
     @NotNull
     private String name;
+    private Integer qty;
     private Double price;
     private Integer discount;
 
